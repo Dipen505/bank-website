@@ -1,27 +1,26 @@
 body {
     padding: 120px;
-    border: 1px solid red;
+    margin: 50px;
 }
-.login-area {
-    margin-top: 80px;
-    box-shadow: 10px 10px 20px grey;
-    padding: 40px;
+.box {
+    box-shadow: 10px 10px 15px rgb(155, 152, 152);
+    padding: 50px;
     border-radius: 8px;
+    margin-top: 80px;
 }
 #transaction-area {
     display: none;
 }
-.box-padding {
-    padding: 30px;
+#deposit-box {
+    background-color: skyblue;
+}
+#withdraw-box {
+    background-color: tan;
+}
+#balance-box {
+    background-color: tomato;
+}
+.box-setting {
+    padding: 25px;
     border-radius: 8px;
-    color: floralwhite;
-}
-#deposit {
-    background-color: rgb(106, 201, 106);
-}
-#withdraw {
-    background-color: rgb(158, 149, 158);
-}
-#balance {
-    background-color: goldenrod;
 }
